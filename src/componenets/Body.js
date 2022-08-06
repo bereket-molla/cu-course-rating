@@ -3,8 +3,12 @@ import icon from '../Vector.svg'
 
 
 export default function Body() {
+  
+  
 
-
+ // ONLY THE USER INTERFACE IS COMPLETED 
+  
+  
   return (
     <div className='container-body'>
         <div className="header">
