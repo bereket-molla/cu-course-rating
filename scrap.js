@@ -14,7 +14,7 @@ async function CourseInformation() {
   // const clickedData = await page.$eval("#data", el => el.textContent)
   // console.log(clickedData)
 
-  inputString = "Christos H Papadimitriou"
+  inputString = ""
 
   await page.type("#search", inputString)
   const info = await page.$eval("body > div.all-reviews > div:nth-child(1) > div.review-para > p", el => el.textContent)
